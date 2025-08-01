@@ -3,6 +3,7 @@ import { readFile } from 'node:fs/promises'
 import { join } from 'node:path'
 import { ImageResponse } from 'next/og'
 import { Bookmark, People, Star, Time } from '@/lib/ogIcons'
+import en from '@/locales/en'
 import { getStats } from '@/services/github/getCommits'
 import { getProfile } from '@/services/github/getProfile'
 import { getTopLanguages } from '@/services/github/getTopLanguages'
@@ -39,7 +40,7 @@ export default async function Image() {
 						<p style={{ fontFamily: 'Rubik' }} tw='text-[#f54a43] text-6xl mt-0 mb-0'>
 							Hello!
 						</p>
-						<p tw='mt-2 mb-0'>I love coding as a hobbie, im studying to be a traumatologist</p>
+						<p tw='mt-2 mb-0'>{en.bio}</p>
 					</div>
 				</div>
 

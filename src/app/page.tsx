@@ -55,9 +55,9 @@ export default function Home() {
 		<div>
 			<Header language={language} setLanguage={setLanguage} />
 
-			<main className='h-screen overflow-y-scroll snap-y snap-mandatory font-space-grotesk'>
+			<main className='min-h-screen overflow-y-scroll font-space-grotesk'>
 				<section
-					className='h-screen w-full snap-start flex flex-col items-center justify-center relative p-4'
+					className='min-h-screen w-full flex flex-col items-center justify-center relative p-4 pt-12'
 					id='home'
 				>
 					<div className='w-full max-w-6xl space-y-8'>
@@ -114,7 +114,7 @@ export default function Home() {
 						</div>
 					</div>
 					<button
-						className='absolute bottom-10 animate-bounce'
+						className='absolute bottom-10 animate-bounce cursor-po'
 						onClick={() => scrollTo('projects')}
 						type='button'
 					>
@@ -123,7 +123,7 @@ export default function Home() {
 				</section>
 
 				<section
-					className='h-screen w-full snap-start flex flex-col items-center justify-center p-4 md:p-8'
+					className='min-h-screen w-full flex flex-col items-center justify-center p-4 md:p-8'
 					id='projects'
 				>
 					<h2 className='text-3xl md:text-5xl font-bold mb-12 text-center text-white'>

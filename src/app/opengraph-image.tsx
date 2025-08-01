@@ -91,7 +91,7 @@ function Header() {
 		<header tw='w-full flex items-center justify-between'>
 			<div tw='flex items-center'>
 				{/** biome-ignore lint/performance/noImgElement: cant use nextjs/image on nextjs/og */}
-				<img alt='logo' height={48} src='https://i.imgur.com/pouAmlN.png' tw='w-40 h-40' width={48} />
+				<img alt='logo' height={48} src='https://milosworks.xyz/mw.svg' tw='w-40 h-40' width={48} />
 				<span style={{ fontFamily: 'Rubik' }} tw='font-bold tracking-widest text-5xl ml-4'>
 					MILOSWORKS
 				</span>

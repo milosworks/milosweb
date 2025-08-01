@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2160 2160">
+  <!-- Generator: Adobe Illustrator 29.6.1, SVG Export Plug-In . SVG Version: 2.1.1 Build 9)  -->
+  <defs>
+    <style>
+      .st0, .st1 {
+        fill: #fff;
+      }
+
+      .st1 {
+        display: none;
+        filter: url(#drop-shadow-1);
+      }
+
+      .st2 {
+        fill: none;
+      }
+
+      .st3 {
+        fill: #f54a43;
+      }
+    </style>
+    <filter id="drop-shadow-1" x="55" y="42" width="2030" height="2031" filterUnits="userSpaceOnUse">
+      <feOffset dx="-10" dy="-10"/>
+      <feGaussianBlur result="blur" stdDeviation="14"/>
+      <feFlood flood-color="#000" flood-opacity=".75"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Layer_2">
+    <circle class="st1" cx="1080" cy="1067.35" r="972.71"/>
+    <rect class="st2" y="0" width="2160" height="2160"/>
+  </g>
+  <g id="Layer_1">
+    <polygon class="st3" points="846.37 1151.27 597.7 686.24 421.71 1039.75 350.71 953.32 597.7 477.14 842.05 934.07 1062.04 480.08 1309.84 948.01 1255.29 1058.5 1066.32 697.36 846.37 1151.27"/>
+    <polygon class="st0" points="1556.77 1619.06 1312.42 1162.13 1092.16 1616.67 846.22 1151.88 904.86 1028.41 1088.42 1398.28 1308.1 944.93 1556.77 1409.96 1753.73 1062.36 1809.29 1142.62 1556.77 1619.06"/>
+  </g>
+</svg>

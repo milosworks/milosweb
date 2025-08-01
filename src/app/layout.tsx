@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from 'next'
 import './globals.css'
 import { Rubik, Space_Grotesk } from 'next/font/google'
+import en from '@/locales/en'
 
 const spaceGrotesk = Space_Grotesk({
 	subsets: ['latin'],
@@ -21,17 +22,17 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
 	metadataBase: new URL('https://milosworks.xyz'),
 	title: 'MilosWorks',
-	description: 'Hi, im Milo! I love coding stuff as a hobbie and im studying to be a traumatologist.',
+	description: en.bio,
 	openGraph: {
 		url: '/',
 		type: 'website',
 		title: 'MilosWorks',
-		description: 'Hi, im Milo! I love coding stuff as a hobbie and im studying to be a traumatologist.'
+		description: en.bio
 	},
 	twitter: {
 		card: 'summary_large_image',
 		title: 'MilosWorks',
-		description: 'Hi, im Milo! I love coding stuff as a hobbie and im studying to be a traumatologist.',
+		description: en.bio,
 		site: '/',
 		creator: 'MilosWorks'
 	}
